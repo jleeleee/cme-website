@@ -240,6 +240,7 @@ th {
   }
   .navbar {
     display: none;
+    text-align: center;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3531,7 +3532,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
   list-style: none;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -4183,6 +4184,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-collapse {
+  text-align: center;
   padding-right: 15px;
   padding-left: 15px;
   overflow-x: visible;
@@ -4198,6 +4200,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-collapse {
     width: auto;
     border-top: 0;
+    text-align: center;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
@@ -4344,7 +4347,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    padding: 5px 15px 5px 15px;
   }
   .navbar-nav .open .dropdown-menu > li > a {
     line-height: 20px;
@@ -4356,7 +4359,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    display: inline-block;
+    float: none;
     margin: 0;
   }
   .navbar-nav > li {
@@ -4961,13 +4965,13 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  text-align: center;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -6758,3 +6762,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}

@@ -1,0 +1,33 @@
+.navbar {
+    text-align: center;
+}
+.dropdown-menu {
+      text-align: center;
+}
+.navbar-collapse {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .navbar-collapse {
+      text-align: center;
+  }
+}
+navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 15px;
+  }	
+@media (min-width: 768px) {
+  .navbar-nav {		 
+    display: inline-block;
+    float: none;
+  }
+}	  
+
+.jumbotron .h1 {
+  color: inherit;
+  text-align: center;
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
