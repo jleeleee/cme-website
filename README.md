@@ -1,5 +1,5 @@
 # Crescendo-Music-Education-v2
-A relaunch of the CME website using the MEAN stack and Twitter Bootstrap.
+A relaunch of the CME website using Django stack.
 
 ##TODO - Very rough todo list
 1. Basic Page Templates
