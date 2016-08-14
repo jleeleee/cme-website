@@ -1,11 +1,8 @@
 # Crescendo-Music-Education-v2
-A relaunch of the CME website using Django stack.
+A relaunch of the CME website using Django & Nginx hosted on Digitalocean cloud service
 
-##TODO - Very rough todo list
-1. Basic Page Templates
-    ..* Color Scheme
-    ..* Font Family -- currently Roboto Slab
-2. Basic Static Pages
-3. User signup forms
-4. Tutor private pages
-5. Choose color scheme
+## TODO:
+1. Upload static HTML home page to server using Django flatpages
+2. Create various other static pages.
+3. Create signup page.
+4. Create tutors page
