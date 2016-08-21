@@ -8,7 +8,9 @@ Make sure to edit the index_dev.html file when testing on a local machine, in th
 * Changed must be manually synced to the server.
 
 ## TODO:
-1. Upload static HTML home page to server using Django flatpages
-2. Create various other static pages.
-3. Create signup page.
-4. Create tutors page
+- [ ] Create the static pages
+- - [x] Create home page
+- - [x] Create join/tutors page
+- [ ] Update metadata for SEO
+- [ ] Create signup page.
+- [ ] Create tutors page

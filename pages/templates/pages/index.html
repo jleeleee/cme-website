@@ -59,16 +59,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About Us</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">What We Do</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#join">Join Us</a>
+                        <a class="page-scroll" href="#join">Join </a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact Us</a>
+                        <a class="page-scroll" href="#information">Information </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#media">Media </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -83,11 +89,10 @@
                 <h1 id="homeHeading">Crescendo Music Education</h1>
                 <hr>
                 <p>Increase the Music. Increase the Passion. Increase the Future</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
             </div>
         </div>
     </header>
-
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
@@ -96,7 +101,32 @@
                     <hr class="light">
                     <p class="text-faded">We believe that musical education should be shared with everyone, regardless of race, gender, ethnicity,
                         or affluence. </p>
-                    <a href="#about" class="btn btn-default btn-xl sr-button">Learn More About Us</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 text-center">
+                                <div class="service-box">
+                                    <a href="/about/story" class="btn btn-default btn-xl sr-button">
+                                        Our Story
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-box">
+                                    <a href="/about/directors" class="btn btn-default btn-xl sr-button">
+                                        Board of Directors
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="service-box">
+                                    <a href="/about/mission" class="btn btn-default btn-xl sr-button">
+                                        Our Mission
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -112,32 +142,51 @@
             </div>
         </div>
         <div class="container">
+            <h5 class="text-center"> Click on each icon to learn more</h5>
             <div class="row">
                 <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-music text-primary sr-icons"></i>
-                        <h3>Teaching</h3>
-                        <p class="text-muted">We have terrible teachers.</p>
+                        <a href="/services/tutors" class="primary">
+                            <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                            <h3>Teaching</h3>
+                        </a>
+                        <p class="text-muted text-left">
+                            Selected through a strict audition process, our tutors consist of only the most talented and passionate youth musicians in
+                            our community.
+                        </p>
+
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-music text-primary sr-icons"></i>
-                        <h3>Learning</h3>
-                        <p class="text-muted">That's why our kids don't learn anything.</p>
+                        <a href="/services/structure" class="primary">
+                            <i class="fa fa-4x fa-child text-primary sr-icons"></i>
+                            <h3>Learning</h3>
+                        </a>
+                        <p class="text-muted text-left">
+                            Our unique class structures allow students to learn in a group environment while recieving personalized attention from our
+                            tutors.
+                        </p>
+
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-music text-primary sr-icons"></i>
-                        <h3>Performing</h3>
-                        <p class="text-muted">You don't want to see them perform.</p>
+                        <a href="/services/performances" class="primary">
+                            <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+                            <h3>Performing</h3>
+                        </a>
+                        <p class="text-muted text-left">
+                            We hold recitals for our students at the end of each season. In addition, our tutors frequently perform at local charity
+                            events to give back to our community.
+                        </p>
+
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
-
     <section class="no-padding" id="join">
         <div class="container">
             <div class="row">
@@ -147,74 +196,118 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-primary">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-md-4">
-                    <a href="/join/tutors/" class="portfolio-box">
-                        <img src="{% static 'pages/img/portfolio/thumbnails/1.jpg' %}" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Become a Tutor!
-                                </div>
-                                <div class="project-name">
-                                    Click to learn More!
-                                </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-4 join-tutors ">
+                    <div class="join-box">
+                        <div class="join-caption">
+                            <div class="join-category text-faded">
+                                Become a Tutor
+                            </div>
+                            <div class="join-action">
+                                <a href="/join/tutors">Click to Join</a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <a href="{% static 'pages/img/portfolio/fullsize/2.jpg' %}" class="portfolio-box">
-                        <img src="{% static 'pages/img/portfolio/thumbnails/2.jpg' %}" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Yes, don't just stand there and help me make this stupid website and be useful for once (*cough Andrew Kim *)
-                                </div>
-                                <div class="project-name">
-                                    None of the links actually work because it takes so damn long to code.
-                                </div>
+                <div class="col-sm-4 join-students ">
+                    <div class="join-box">
+                        <div class="join-caption">
+                            <div class="join-category text-faded">
+                                Enroll a Student
+                            </div>
+                            <div class="join-action">
+                                <a href="/join/students">Click to Enroll</a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <a href="{% static 'pages/img/portfolio/fullsize/3.jpg' %}" class="portfolio-box">
-                        <img src="{% static 'pages/img/portfolio/thumbnails/3.jpg' %}" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Become a Student!
-                                </div>
-                                <div class="project-name">
-                                    Click to learn more!
-                                </div>
+                <div class="col-sm-4 join-code ">
+                    <div class="join-box">
+                        <div class="join-caption">
+                            <div class="join-category text-faded">
+                                Donate
+                            </div>
+                            <div class="join-action">
+                                <a href="/join/donate">Click to Learn More</a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <aside class="bg-primary" id="curriculum">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Curious about our curriculum?</h2>
-                <a href="#curriculum" class="btn btn-default btn-xl sr-button">Click here to learn more!</a>
+    <aside class="bg-primary" id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Additional Information</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <a class="icons" href="/information/general">
+                        <i class="fa fa-info fa-3x sr-contact"></i>
+                        <p>Time & Location</p>
+                    </a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a class="icons" href="/information/curriculum">
+                        <i class="fa fa-institution fa-3x sr-contact"></i>
+                        <p>Curriculum</p>
+                    </a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a class="icons" href="https://drive.google.com/file/d/0BymgDMdZGxJESjZ1Z2cwdG0zS1E/view?usp=sharing" target="_blank">
+                        <i class="fa fa-exclamation-circle fa-3x sr-contact"></i>
+                        <p>Code of Conduct</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <aside class="bg-dark" id="media">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Media</h2>
+                    <hr class="light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 text-center">
+                    <a class="icons" href="/media/news">
+                        <i class="fa fa-2x  fa-newspaper-o" aria-hidden="true"></i>
+                        <p>Updates</p>
+                    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <a class="icons" href="/media/gallery">
+                        <i class="fa fa-2x fa-camera" aria-hidden="true"></i>
+                        <p>Gallery</p>
+                    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <a class="icons" href="https://www.facebook.com/CrescME/" target="_blank">
+                        <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+                        <p>Facebook</p>
+                    </a>
+                </div>
             </div>
         </div>
     </aside>
 
-    <section id="contact">
+    <aside id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Have Any Questions?</h2>
+                    <a href="/contact" class="btn btn-primary btn-xl sr-button">Contact Us</a>
                     <hr class="primary">
-                    <p>Feel free to contact us through phone or email!</p>
+                    <p>or</p>
+                    <p>Feel free to reach us through phone or email!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
@@ -222,15 +315,15 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:contact@crescendoeducation.org">contact@crescendoeducation.org</a></p>
+                    <p><a href="mailto:contact@crescendoeducation.org" target="_blank">contact@crescendoeducation.org</a></p>
                 </div>
             </div>
         </div>
-    </section>
+    </aside>
     <footer class="bg-dark">
         <div class="container text-center">
-            <a class="icons" href="https://www.facebook.com/CrescME/"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i> </a> &nbsp&nbsp
-            <a class="icons" href="mailto:contact@crescendoeducation.org"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i> </a>
+            <a class="icons" href="https://www.facebook.com/CrescME/" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i> </a>            &nbsp&nbsp
+            <a class="icons" href="mailto:contact@crescendoeducation.org" target="_blank"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i> </a>
             <br> <br>
             <p style="font-size:9px">Created by Jihyeong Lee</p>
         </div>
