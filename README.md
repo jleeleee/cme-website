@@ -8,9 +8,29 @@ Make sure to edit the index_dev.html file when testing on a local machine, in th
 * Changed must be manually synced to the server.
 
 ## TODO:
-- [ ] Create the static pages
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [x] Create home page
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [x] Create join/tutors page
-- [ ] Update metadata for SEO
-- [ ] Create signup page.
-- [ ] Create tutors page
+* Create Static Pages
+- [x] Create index.html
+
+- [ ] Create about/story.html
+- [ ] Create about/mission.html
+- [ ] Create about/directors.html
+
+- [x] Create join/tutors.html
+- [ ] Create join/students.html
+- [ ] Create join/information.html
+
+- [ ] Create services/performances.html
+- [ ] Create services/structure.html
+- [ ] Create services/tutors.html
+
+- [ ] Create information/curriculum.html
+- [ ] Create information/general.html
+
+- [ ] Create media/gallery.html
+- [ ] Create media/news.html
+
+- [ ] Create contact.html
+
+* Update metadata for SEO
+* Create signup pages
+* Create tutors page (currently using TypeForm)
