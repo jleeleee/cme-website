@@ -8,7 +8,7 @@ Make sure to edit the index_dev.html file when testing on a local machine, in th
 * Changed must be manually synced to the server.
 
 ## TODO:
-* Create Static Pages
+* ### Create Static Pages
 - [x] Create index.html
 
 - [ ] Create about/story.html
