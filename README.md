@@ -17,7 +17,6 @@ Task | Status
     ---|---
 index.html | Done
 about/story.html | Not Started
-about/mission.html | Not Started
 about/directors.html | Not Started
 join/tutors.html | Done
 join/students.html | Not Started
