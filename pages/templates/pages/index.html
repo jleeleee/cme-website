@@ -1,0 +1,303 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Crescendo Music Education</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+
+    <link rel="stylesheet" href="{% static 'pages/css/creative.css' %}" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        header {
+            background-image: url({% static 'pages/img/frontpage.jpg' %});
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">CME</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">What We Do</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#join">Join </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#information">Information </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#media">Media </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Crescendo Music Education</h1>
+                <hr>
+                <p>Increase the Music. Increase the Passion. Increase the Future</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+            </div>
+        </div>
+    </header>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Creating a musician, one child at a time.</h2>
+                    <hr class="light">
+                    <p class="text-faded">We believe that musical education should be shared with everyone, regardless of race, gender, ethnicity, or affluence. </p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <div class="service-box">
+                                <a href="/about/story" class="btn btn-default btn-xl sr-button">
+                                        Our Story
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="service-box">
+                                <a href="/about/directors" class="btn btn-default btn-xl sr-button">
+                                        Board of Directors
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <div class="service-box">
+                                <a href="/about/mission" class="btn btn-default btn-xl sr-button">
+                                        Our Mission
+                                    </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What We Do</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h5 class="text-center"> Click on each icon to learn more</h5>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <a href="/services/tutors" class="primary">
+                            <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                            <h3>Teaching</h3>
+                        </a>
+                        <p class="text-muted text-left">
+                            Selected through a strict audition process, our tutors consist of only the most talented and passionate youth musicians in our community.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <a href="/services/structure" class="primary">
+                            <i class="fa fa-4x fa-child text-primary sr-icons"></i>
+                            <h3>Learning</h3>
+                        </a>
+                        <p class="text-muted text-left">
+                            Our unique class structures allow students to learn in a group environment while recieving personalized attention from our tutors.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <a href="/services/performances" class="primary">
+                            <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+                            <h3>Performing</h3>
+                        </a>
+                        <p class="text-muted text-left">
+                            We hold recitals for our students at the end of each season. In addition, our tutors frequently perform at local charity events to give back to our community.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="no-padding" id="join">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Join Us!</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-4 join-overall" style="background-image: url({% static 'pages/img/tutors.jpg' %});">
+                    <div class="join-box">
+                        <div class="join-caption">
+                            <a class="btn btn-primary btn-xl" href="/join/tutors">Become a Tutor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 join-overall" style="background-image: url({% static 'pages/img/students.jpg' %});">
+                    <div class="join-box">
+                        <div class="join-caption">
+                            <a class="btn btn-primary btn-xl" href="/join/students">Enroll a Student</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 join-overall" style="background-image: url({% static 'pages/img/tutors2.jpg' %});">
+                    <div class="join-box">
+                        <div class="join-caption">
+                            <a class="btn btn-primary btn-xl" href="/join/donate">Support Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="bg-primary" id="information">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Additional Information</h2>
+                    <hr class="light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <a class="icons" href="/information/general">
+                        <i class="fa fa-info fa-3x sr-contact"></i>
+                        <p>Time & Location</p>
+                    </a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a class="icons" href="/information/curriculum">
+                        <i class="fa fa-institution fa-3x sr-contact"></i>
+                        <p>Curriculum</p>
+                    </a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a class="icons" href="https://drive.google.com/file/d/0BymgDMdZGxJESjZ1Z2cwdG0zS1E/view?usp=sharing" target="_blank">
+                        <i class="fa fa-exclamation-circle fa-3x sr-contact"></i>
+                        <p>Code of Conduct</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <aside class="bg-dark" id="media">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Media</h2>
+                    <hr class="light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 text-center">
+                    <a class="icons" href="/activities/news">
+                        <i class="fa fa-2x  fa-newspaper-o" aria-hidden="true"></i>
+                        <p>Updates</p>
+                    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <a class="icons" href="/activities/gallery">
+                        <i class="fa fa-2x fa-camera" aria-hidden="true"></i>
+                        <p>Gallery</p>
+                    </a>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <a class="icons" href="https://www.facebook.com/CrescME/" target="_blank">
+                        <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <aside id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Have Any Questions?</h2>
+                    <a href="/contact" class="btn btn-primary btn-xl sr-button">Contact Us</a>
+                    <hr class="primary">
+                    <p>or</p>
+                    <p>Feel free to reach us through phone or email!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>703-507-8780</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:contact@crescendoeducation.org" target="_blank">contact@crescendoeducation.org</a></p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    {% include "footer.html" %}
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="{% static 'pages/vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="{% static 'pages/js/creative.min.js' %}"></script>
+</body>
