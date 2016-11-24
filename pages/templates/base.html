@@ -7,8 +7,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Crescendo Music Education">
+    <meta name="keywords" content="Violin,Free,Tutoring,Lessons,Cello,Viola,String,Intrument,Volunteer,Non-Profit">
+    <meta name="author" content="Crescendo Music Education,Jihyeong Lee">
 
     <title>
         {% block title %}{% endblock %}
@@ -30,28 +31,91 @@
     {% endblock %}
     
 </head>
-
-
 <body id="page-top">
-    {% include "navbar.html" %} 
-    
-    <header>
-    <div class="header-content">
-        <div class="header-content-inner">
-            {% block header %}
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+                    </button>
+                <a class="navbar-brand page-scroll" href="/">CME</a>
+            </div>
 
-            {% endblock header %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about/story">Our Story</a></li>
+                            <li><a href="/about/mission">Our Mission</a></li>
+                            <li><a href="/about/directors">Board of Directors</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">What We Do<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/services/tutors">Our Tutors</a></li>
+                            <li><a href="/services/structure">Class Structure</a></li>
+                            <li><a href="/services/performances">Performances</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Join<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/join/tutors">Become a Tutor</a></li>
+                            <li><a href="/join/students">Enroll a Child</a></li>
+                            <li><a href="/join/donate">Donate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Information<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/information/general">Location & Time</a></li>
+                            <li><a href="/information/curriculum">Curriculum</a></li>
+                            <li><a href="https://drive.google.com/file/d/0BymgDMdZGxJESjZ1Z2cwdG0zS1E/view?usp=sharing" target="_blank">Code Of Conduct</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Media<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/activities/news">News & Announcements</a></li>
+                            <li><a href="/activities/gallery">Gallery</a></li>
+                            <li><a href="https://www.facebook.com/CrescME/" target="_blank">Facebook Page</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
-</header>
+        <!-- /.container-fluid -->
+    </nav>
 
-    {% block content %}
-    {% endblock content %} 
-    {% include "footer.html" %}
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                {% block header %} {% endblock header %}
+            </div>
+        </div>
+    </header>
+    {% block content %} {% endblock content %}
+
+    <footer class="bg-dark">
+        <div class="container text-center">
+            <a class="icons" href="https://www.facebook.com/CrescME/" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i> </a> &nbsp&nbsp
+            <a class="icons" href="mailto:contact@crescendoeducation.org" target="_blank"><i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i> </a>
+            <br> <br>
+            <p style="font-size:9px">Created by Jihyeong Lee</p>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="{% static 'pages/js/creative.min.js' %}"></script>
 

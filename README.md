@@ -3,12 +3,12 @@ Merging branches safely: http://stackoverflow.com/questions/14168677/merge-devel
 # Crescendo-Music-Education-v2
 A relaunch of the CME website using Django & Nginx hosted on Digitalocean cloud service.
 
-Currently live on http://104.236.23.31/
+Live: http://104.236.23.31/
 
-Dev environment on https://cme-dev-env-a2017jlee.c9users.io/
+Dev environment: https://cme-dev-env-a2017jlee.c9users.io/
 
-### Notes:
-* Changed must be manually synced to the server using SFTP
+### WARNING:
+Changed must be manually synced to the server using SFTP
 
 ## TODO:
 ### Create Static Pages
@@ -38,7 +38,8 @@ Dev environment on https://cme-dev-env-a2017jlee.c9users.io/
 ### Create signup pages
 ### Create tutors page (currently using TypeForm)
 
-# C9 Basics
+
+## C9 Basics
 Your Django project is already fully setup. Just click the "Run" button to start
 the application. On first run you will be asked to create an admin user. You can
 access your application from 'https://cme-dev-env-a2017jlee.c9users.io/' and the admin page from 

@@ -1,5 +1,18 @@
-{% extends "base.html" %} 
-{% block content %}
+{% extends "base.html" %} {% block content %} {% load static %} {% block bgimg %}
+<style>
+    header {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url({% static 'pages/img/tutors.jpg' %});
+    }
+</style>
+{% endblock bgimg %} 
+
+{% block header %}
+    <h1 class="page-heading">Board of Directors</h1>
+    <p>Meet the students behind the scenes</p>
+    <hr class="light"> 
+{% endblock header %}
+
 <section class="bg-primary">
     <div class="container">
         <div class="row">
