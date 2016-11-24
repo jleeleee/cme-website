@@ -7,12 +7,8 @@ Currently live on http://104.236.23.31/
 
 Dev environment on https://cme-dev-env-a2017jlee.c9users.io/
 
-### If you want to develop on the front-end:
-Make sure to edit the index_dev.html file when testing on a local machine, in the pages/templates folder because that's the file that isn't linked by Django static files. Then, update the index.html file as well so that the changes can be applied to the live site.
-
-
 ### Notes:
-* Changed must be manually synced to the server.
+* Changed must be manually synced to the server using SFTP
 
 ## TODO:
 ### Create Static Pages
