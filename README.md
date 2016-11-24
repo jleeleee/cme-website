@@ -1,3 +1,5 @@
+Merging branches safely: http://stackoverflow.com/questions/14168677/merge-development-branch-with-master
+
 # Crescendo-Music-Education-v2
 A relaunch of the CME website using Django & Nginx hosted on Digitalocean cloud service.
 
