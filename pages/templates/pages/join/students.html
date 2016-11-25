@@ -3,22 +3,26 @@
 {% load static %}
 
 {% block title %}
-Placeholder
+Enroll a Student | Crescendo Music Education
 {% endblock title %}
 
 {% block bgimg %}
 <style>
     header {
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url({% static 'pages/img/tutors.jpg' %});
+        url({% static 'pages/img/students.jpg' %});
     }
 </style>
 {% endblock bgimg %} 
 
 {% block header %}
-    <h1 class="page-heading">Placeholder</h1>
-    <p>Placeholder</p>
-    <hr class="light"> 
+    <h1 class="page-heading">Enroll a Student</h1>
+    <p>Want to Enroll Your Child?</p>
+    <div class="btn-group" role="group" aria-label="...">
+    <a class="btn btn-default btn-xl sr-button page-scroll"  href="#first" target="_blank">Learn More</a>
+    <a class="btn btn-default btn-xl sr-button" style="background-color:#ecf0f1;" href="https://crescendoeducation.typeform.com/to/zitNrB" target="_blank">Apply Now</a>
+    </div>
+    <hr class="light" >
 {% endblock header %}
 
 {% block content %}
