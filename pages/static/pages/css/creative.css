@@ -385,7 +385,7 @@ body {
 .join-overall{
   position: relative;
   background-position: center;
-  min-height: 300px;
+  min-height: 350px;
   background-size: cover;
 }
 .join-box{

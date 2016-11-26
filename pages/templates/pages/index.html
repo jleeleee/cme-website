@@ -29,7 +29,8 @@
     <![endif]-->
     <style>
         header {
-            background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url({% static 'pages/img/frontpage.jpg' %});
+            background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+            url({% static 'pages/img/frontpage.jpg' %});
         }
     </style>
 
@@ -42,8 +43,8 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
-            </button>
+                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
+                </button>
                 <a class="navbar-brand page-scroll" href="/">
                     <img src="{% static 'pages/img/logo_notext.png' %}" alt="logo" style="max-height: 100%;display:inline;" /> CME
                 </a>
@@ -64,12 +65,7 @@
                     <li>
                         <a class="page-scroll" href="#information">Information </a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#media">Media </a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -95,51 +91,25 @@
                     <hr class="light">
                     <p class="text-faded">We believe that musical education should be shared with everyone, regardless of race, gender, ethnicity, or affluence. </p>
                 </div>
-                <div class="container">
 
-                    <div class="col-md-3 text-center">
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <div class="service-box">
-                            <a href="/about/story" class="btn btn-default btn-xl sr-button">
-                            Our Story
-                            </a>
-                        </div>
-                    </div>
-                <div class="col-md-3 text-center">
+                <div class=" text-center">
                     <div class="service-box">
-                        <a href="/about/directors" class="btn btn-default btn-xl sr-button">
-                        Board of Directors
+                        <a href="#services" class="btn btn-default btn-xl sr-button page-scroll">
+                        What We Do
                         </a>
                     </div>
                 </div>
-
-
-                </div>
             </div>
         </div>
-        </div>
-
     </section>
 
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What We Do</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <h5 class="text-center"> Click on each icon to learn more</h5>
-            <div class="row">
                 <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <a href="/services/tutors" class="primary">
-                            <i class="fa fa-4x fa-users text-primary sr-icons"></i>
-                            <h3>Teaching</h3>
-                        </a>
+                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                        <h3>Teaching</h3>
                         <p class="text-muted text-left">
                             Selected through a strict audition process, our tutors consist of only the most talented and passionate youth musicians in our community.
                         </p>
@@ -148,10 +118,8 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <a href="/services/structure" class="primary">
-                            <i class="fa fa-4x fa-child text-primary sr-icons"></i>
-                            <h3>Learning</h3>
-                        </a>
+                        <i class="fa fa-4x fa-child text-primary sr-icons"></i>
+                        <h3>Learning</h3>
                         <p class="text-muted text-left">
                             Our unique class structures allow students to learn in a group environment while recieving personalized attention from our tutors.
                         </p>
@@ -160,55 +128,45 @@
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <a href="/services/performances" class="primary">
-                            <i class="fa fa-4x fa-music text-primary sr-icons"></i>
-                            <h3>Performing</h3>
-                        </a>
+                        <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+                        <h3>Performing</h3>
                         <p class="text-muted text-left">
                             We hold recitals for our students at the end of each season. In addition, our tutors frequently perform at local charity events to give back to our community.
                         </p>
-
                     </div>
                 </div>
             </div>
-
         </div>
-    </section>
-    <section class="no-padding" id="join">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Join Us!</h2>
-                    <hr class="primary">
-                </div>
+        <div class=" text-center">
+            <div class="service-box">
+                <a href="#join" class="btn btn-primary btn-xl sr-button page-scroll">
+                    Join Us
+                    </a>
             </div>
         </div>
+    </section>
+
+    <section class="no-padding" id="join">
         <div class="container-fluid">
             <div class="row no-gutter">
-                <div class="col-sm-4 join-overall" style="background-image: url({% static 'pages/img/tutors.jpg' %});">
+                <div class="col-sm-6 join-overall" style="background-image: url({% static 'pages/img/tutors.jpg' %});">
                     <div class="join-box">
                         <div class="join-caption">
                             <a class="btn btn-primary btn-xl" href="/join/tutors">Become a Tutor</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 join-overall" style="background-image: url({% static 'pages/img/students.jpg' %});">
+                <div class="col-sm-6 join-overall" style="background-image: url({% static 'pages/img/students.jpg' %});">
                     <div class="join-box">
                         <div class="join-caption">
                             <a class="btn btn-primary btn-xl" href="/join/students">Enroll a Student</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 join-overall" style="background-image: url({% static 'pages/img/tutors2.jpg' %});">
-                    <div class="join-box">
-                        <div class="join-caption">
-                            <a class="btn btn-primary btn-xl" href="/join/support">Support Us</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
+
     <aside class="bg-primary" id="information">
         <div class="container">
             <div class="row">
@@ -218,79 +176,35 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 text-center">
+                <div class="col-sm-3 text-center">
                     <a class="icons" href="/information/general">
                         <i class="fa fa-info fa-3x sr-contact"></i>
                         <p>Time & Location</p>
                     </a>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <a class="icons" href="/information/curriculum">
-                        <i class="fa fa-institution fa-3x sr-contact"></i>
-                        <p>Curriculum</p>
-                    </a>
-                </div>
-                <div class="col-sm-4 text-center">
+                <div class="col-sm-3 text-center">
                     <a class="icons" href="https://drive.google.com/file/d/0BymgDMdZGxJESjZ1Z2cwdG0zS1E/view?usp=sharing" target="_blank">
                         <i class="fa fa-exclamation-circle fa-3x sr-contact"></i>
                         <p>Code of Conduct</p>
                     </a>
                 </div>
-            </div>
-        </div>
-    </aside>
-    <aside class="bg-dark" id="media">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Media</h2>
-                    <hr class="light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-4 text-center">
-                    <a class="icons" href="/activities/news">
-                        <i class="fa fa-2x  fa-newspaper-o" aria-hidden="true"></i>
-                        <p>Updates</p>
-                    </a>
-                </div>
-                <div class="col-xs-4 text-center">
-                    <a class="icons" href="/activities/gallery">
-                        <i class="fa fa-2x fa-camera" aria-hidden="true"></i>
-                        <p>Gallery</p>
-                    </a>
-                </div>
-                <div class="col-xs-4 text-center">
+                <div class="col-sm-3 text-center">
                     <a class="icons" href="https://www.facebook.com/CrescME/" target="_blank">
-                        <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+                        <i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i>
                         <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <a class= "icons" href="mailto:contact@crescendoeducation.org" target="_blank">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p>contact@crescendoeducation.org</p>
                     </a>
                 </div>
             </div>
         </div>
     </aside>
 
-    <aside id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Have Any Questions?</h2>
-                    <a href="/contact" class="btn btn-primary btn-xl sr-button">Contact Us</a>
-                    <hr class="primary">
-                    <p>or</p>
-                    <p>Feel free to reach us through phone or email!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>703-507-8780</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:contact@crescendoeducation.org" target="_blank">contact@crescendoeducation.org</a></p>
-                </div>
-            </div>
-        </div>
-    </aside>
+
     <footer class="bg-dark">
         <div class="container text-center">
             <a class="icons" href="https://www.facebook.com/CrescME/" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i> </a> &nbsp&nbsp
@@ -307,5 +221,5 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="{% static 'pages/js/creative.min.js' %}"></script>
 
-    
+
 </body>

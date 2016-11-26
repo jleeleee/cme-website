@@ -1,39 +1,51 @@
-{% extends "base.html" %} 
+{% extends "base_no_head.html" %} 
 
 {% load static %}
 
 {% block title %}
-Placeholder
+Time and Location | Crescendo Music Education
 {% endblock title %}
 
-{% block bgimg %}
-<style>
-    header {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url({% static 'pages/img/tutors.jpg' %});
-    }
-</style>
-{% endblock bgimg %} 
-
-{% block header %}
-    <h1 class="page-heading">Placeholder</h1>
-    <p>Placeholder</p>
-    <hr class="light"> 
-{% endblock header %}
-
 {% block content %}
-<section class="bg-primary">
+  <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="section-heading">Time & Location</h2>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<section class="bg-default">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="page-heading">Coming soon</h1>
+            <div class = "col-md-6">
+                <h2>
+                    Time
+                </h2>
+                <h4>
+                    Saturday 4:00-5:30 P.M.
+                </h4>
+                                <br/>
+
+                <h2>
+                    Location
+                </h2>
+                <h4>
+                    First Presbyterian Church of Annandale
+                </h4>
+                <p>
+                    7610 Newcastle Dr, Annandale, VA 22003
+                </p>
+                
+            </div>
+            <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.5620663409386!2d-77.20981688475464!3d38.819586679582805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64d26438652a9%3A0x7fd9f54bf986bb8d!2sFirst+Presbyterian+Church-Annndl!5e0!3m2!1sen!2sus!4v1480120507321" width="450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </section>
-<section class="content-section">
-    <div class="row content-box">
-        <h2 class="section-heading text-center">coming soon</h2>
-    </div>
-</section>
+
 {% endblock content %}
