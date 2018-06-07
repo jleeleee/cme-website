@@ -2,7 +2,7 @@
 
 A relaunch of the CME website using Django & Nginx hosted on Digitalocean cloud service.
 
-Live: http://104.236.23.31/
+
 
 Dev environment: https://cme-dev-env-a2017jlee.c9users.io/
 
